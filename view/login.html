@@ -1,4 +1,23 @@
-<div>
-	My Login Page
-	
+<div class="mainWrapper">
+<div  class="loginBlock">
+  <div>Login</div>
+  <div class="loginForm">
+    <ul>
+      <li class="errorMessage">{{errorMessage}}</li>
+      <li>
+        <label>Login ID :</label>
+        <input type="text" placeholder="Email or Username" ng-model="userName"
+		ng-required="true" name="username" class="textfield"  />
+      </li>
+      <li>
+        <label>Password :</label>
+        <input type="password"
+		placeholder="Password"
+		ng-model="password" ng-required="true" name="password" class="textfield" />
+      </li>
+      <li>
+        <button ng-click="login()" class="loginButton">Log In</button>
+      </li>
+    </ul>
+  </div>
 </div>
