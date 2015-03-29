@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="myAppModule">
+
+<head>
+<title ng-bind="pageTitle">My Application</title>
+<link rel="stylesheeet" href="css/style.css">
+</head>
+<body>
+	
+	<!-- Include partial view-->
+	<div ng-view></div>
+	
+	<!-- lib to be include-->
+	<script src="js/lib/angular/angular.js"></script>
+	<script src="js/lib/angular/angular-route.js"></script>
+	<script src="js/jquery/jquery-1.8.2.min.js"></script>
+	
+	<!-- router script  to be include-->
+	<script src="js/routers/myApp.js"></script>
+	
+	<!-- constants script include -->
+	<script src="js/common/constants.js"></script>
+		
+
+	<!-- directives script to be include-->
+	
+	<!-- controller script to be include-->
+	<script src="js/controllers/login.js"></script>
+	<script src="js/controllers/dashboard.js"></script>
+	
+	<!-- services script to be include-->
+	
+</body>
+</html>
+
