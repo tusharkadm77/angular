@@ -10,5 +10,7 @@ myAppModule.controller('productController', function($scope, productService){
 	var errorHandler = function(errorData){
 		alert("error");
 	}
+	
+	//service to get the list of product.
 	productService.getProductList().then(successHandler, errorHandler);
 });
