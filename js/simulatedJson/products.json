@@ -1,0 +1,23 @@
+{
+	"responseType": "SUCCESS",
+	"items": [
+		{
+			"productName": "Nike running shoes 101",
+			"productBrand": "Nike",
+			"productCategory": "Shoe",
+			"productType": "Sports"
+		},
+		{
+			"productName": "Nike running shoes 102",
+			"productBrand": "Nike",
+			"productCategory": "Shoe",
+			"productType": "Sports"
+		},
+		{
+			"productName": "Nike running shoes 103",
+			"productBrand": "Nike",
+			"productCategory": "Shoe",
+			"productType": "Sports"
+		}
+	]
+}

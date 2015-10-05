@@ -1,12 +1,12 @@
 <!doctype html>
-<html ng-app="myAppModule">
+<html>
 
 <head>
 	<meta charset="utf-8">
 	<title ng-bind="pageTitle">My Application</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body ng-app="myAppModule">
 	
 	<!-- Include partial view-->
 	<div ng-view></div>
@@ -28,9 +28,11 @@
 	<!-- controller script to be include-->
 	<script src="js/controllers/loginController.js"></script>
 	<script src="js/controllers/dashboardController.js"></script>
+	<script src="js/controllers/productController.js"></script>
 	
 	<!-- services script to be include-->
 	<script src="js/services/loginService.js"></script>
+	<script src="js/services/productService.js"></script>
 	
 	
 </body>

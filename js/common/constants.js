@@ -2,9 +2,11 @@
 
 myAppModule.constant("applicationUrls", {
 	login: "/login",
-	dashboard: "/dashboard"
+	dashboard: "/dashboard",
+	products: "/products"
 });
 
 myAppModule.constant("serviceUrls", {
-	login: "js/simulatedJson/login.json"
+	login: "js/simulatedJson/login.json",
+	products: "js/simulatedJson/products.json"
 });

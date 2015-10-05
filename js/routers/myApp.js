@@ -15,6 +15,11 @@ myAppModule.config(['$routeProvider', 'applicationUrls',
 			controller: 'dashboardController',
 			pageContext: 'DashBoard'		
 		}).
+		when(applicationUrls.products, {
+			templateUrl: 'view/products.html',
+			controller: 'productController',
+			pageContext: 'Product'
+		}).
 		otherwise({
 			redirectTo: applicationUrls.login
 		});

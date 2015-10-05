@@ -1,6 +1,6 @@
 'user strict'
 
-myAppModule.controller('loginController', function($rootScope, $scope, loginService){
+myAppModule.controller('loginController', function($scope, $location, loginService){
 
 	// Call login to validate user credential.
 	$scope.login = function() {
@@ -11,7 +11,7 @@ myAppModule.controller('loginController', function($rootScope, $scope, loginServ
 		
 		var loginSuccessHandler = function(responseData){
 			if(responseData.data.success == 1){
-				alert("Login SuccessFul");
+				$location.path("/products");
 			}else{
 				$scope.errorMessage = "Invalid login credential";
 			}
@@ -21,7 +21,6 @@ myAppModule.controller('loginController', function($rootScope, $scope, loginServ
 			alert("Error while login");
 		};
 	
-		
 		if(userName == undefined || password == undefined || userName == "" || password == ""){
 			$scope.errorMessage = "User Name and Password required."
 		}else{

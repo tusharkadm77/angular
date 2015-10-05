@@ -12,3 +12,11 @@ body{  font-size: 100%; font-family: 'robotoregular', sans-serif; font-weight: 4
 .loginForm ul li .textfield { font-size: 0.7em; width: 94%; float: left; padding: 0.5em; font-family: 'robotoregular', sans-serif; color: #666666; border: 1px solid #CCCCCC; border-radius: 5px;}
 .loginButton{ padding: 0.2em 0.8em; font-size: 0.9em; border-radius: 5px; font-family: 'robotoregular', sans-serif;  color: #000; background-color: #cccccc; border: 1px solid #999999; }
 .errorMessage{ color: #811515; font-size: 0.8em;}
+
+.productBox {
+	border:1px solid #000;
+	float:left;
+	padding:10px;
+	margin:5px;
+	background-color: #8E98B9;
+}
